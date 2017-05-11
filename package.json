@@ -1,9 +1,10 @@
 {
   "name": "@beeman/micro-unfurl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small microservice that unfurls a URL and returns the OpenGraph meta data",
   "main": "index.js",
   "private": false,
+  "repository": "beeman/micro-unfurl",
   "scripts": {
     "start": "micro",
     "test": "echo \"Error: no test specified\" && exit 1",
