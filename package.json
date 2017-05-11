@@ -1,0 +1,29 @@
+{
+  "name": "@beeman/micro-unfurl",
+  "version": "1.0.0",
+  "description": "Small microservice that unfurls a URL and returns the OpenGraph meta data",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "start": "micro",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "now:deploy": "now",
+    "now:alias": "now alias",
+    "now": "npm run now:deploy && npm run now:alias"
+  },
+  "keywords": ["micro", "zeit", "micro service", "unfurl", "open graph", "opengraph", "ogp"],
+  "author": "Bram Borggreve (github:beeman twitter:beeman_nl)",
+  "license": "MIT",
+  "dependencies": {
+    "micro": "^7.3.3",
+    "microrouter": "^2.1.0",
+    "unfurl.js": "^1.1.6"
+  },
+  "now": {
+    "name": "micro-unfurl",
+    "alias": [
+      "micro-unfurl",
+      "unfurl"
+    ]
+  }
+}
