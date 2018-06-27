@@ -12,13 +12,21 @@
     "now:alias": "now alias",
     "now": "npm run now:deploy && npm run now:alias"
   },
-  "keywords": ["micro", "zeit", "micro service", "unfurl", "open graph", "opengraph", "ogp"],
+  "keywords": [
+    "micro",
+    "zeit",
+    "micro service",
+    "unfurl",
+    "open graph",
+    "opengraph",
+    "ogp"
+  ],
   "author": "Bram Borggreve (github:beeman twitter:beeman_nl)",
   "license": "MIT",
   "dependencies": {
     "micro": "^7.3.3",
     "microrouter": "^2.1.0",
-    "unfurl.js": "^1.1.6"
+    "unfurl.js": "^1.1.7"
   },
   "now": {
     "name": "micro-unfurl",
